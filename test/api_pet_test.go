@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/bai-lu_ID/openapi-petstore-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_PetAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService AddPet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PetAPI.AddPet(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService DeletePet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var petId int64
 
@@ -49,7 +50,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService FindPetsByStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PetAPI.FindPetsByStatus(context.Background()).Execute()
 
@@ -61,7 +62,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService FindPetsByTags", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PetAPI.FindPetsByTags(context.Background()).Execute()
 
@@ -73,7 +74,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService GetPetById", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var petId int64
 
@@ -87,7 +88,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService UpdatePet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PetAPI.UpdatePet(context.Background()).Execute()
 
@@ -99,7 +100,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService UpdatePetWithForm", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var petId int64
 
@@ -112,7 +113,7 @@ func Test_openapi_PetAPIService(t *testing.T) {
 
 	t.Run("Test PetAPIService UploadFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var petId int64
 
