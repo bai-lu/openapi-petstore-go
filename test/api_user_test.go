@@ -13,7 +13,7 @@ import (
 	"context"
 	"testing"
 
-	openapiclient "github.com/bai-lu_ID/openapi-petstore-go"
+	openapiclient "github.com/bai-lu/openapi-petstore-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

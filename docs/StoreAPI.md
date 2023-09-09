@@ -28,7 +28,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/bai-lu_ID/openapi-petstore-go"
+    openapiclient "github.com/bai-lu/openapi-petstore-go"
 )
 
 func main() {
@@ -96,7 +96,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/bai-lu_ID/openapi-petstore-go"
+    openapiclient "github.com/bai-lu/openapi-petstore-go"
 )
 
 func main() {
@@ -157,7 +157,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/bai-lu_ID/openapi-petstore-go"
+    openapiclient "github.com/bai-lu/openapi-petstore-go"
 )
 
 func main() {
@@ -227,7 +227,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/bai-lu_ID/openapi-petstore-go"
+    openapiclient "github.com/bai-lu/openapi-petstore-go"
 )
 
 func main() {

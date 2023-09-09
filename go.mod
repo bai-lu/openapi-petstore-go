@@ -1,4 +1,4 @@
-module github.com/bai-lu_ID/openapi-petstore-go
+module github.com/bai-lu/openapi-petstore-go
 
 go 1.18
 
